@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	p, err := plugin.Open("my_plugin.so")
+	p, err := plugin.Open("go_plugin_example.so")
 	if err != nil {
 		log.Fatalf("plugin.Open failed: %v", err)
 	}
